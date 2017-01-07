@@ -68,7 +68,7 @@ Yome.playArea = children => ReactDOM.render(Yome.svgWorld(children), document.ge
 
 Yome.clearPlayArea = () => ReactDOM.unmountComponentAtNode(document.getElementById("playarea"));
 
-Yome.playArea(Yome.drawWalls({ sides: [1, 2, 3, 4] }));
+Yome.playArea(Yome.drawWalls({ sides: [1, 2, 3, 4, 5, 6, 7] }));
 //Yome.playArea(Yome.drawWalls({sides: [1,2,3,4,5,6,7]}))
 //Yome.playArea(Yome.drawWalls({sides: [1,2,3,4,5,6,7,8]}))
 
